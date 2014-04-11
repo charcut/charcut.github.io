@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+
+sitemap: http://www.charcut.com/sitemap.xml
+
+User-Agent: *
+Disallow: /emenu_pdf/

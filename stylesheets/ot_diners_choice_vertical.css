@@ -1,0 +1,14 @@
+.OT_Widget_Wrapper{
+	width:150px;
+	min-height:150px;
+	margin-bottom:15px;
+	background:url(file:///C|/Users/Jean%20Francois%20Beeroo/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Low/Content.IE5/9RZ0ZAK3/img/dc_widget_frame.gif) no-repeat 50% top;
+	position: absolute;
+	left: 7%;
+	top: 45%;
+	z-index: 50;
+}.OT_Widget_Img{
+	width:140px;
+	height:89px;
+	border: 1px solid #CCC;
+}.OT_Img_Wrapper{width:140px;height:89px;margin:0 auto 5px auto;position:relative;top:5px;}a.OT_Widget_Link:link,a.OT_Widget_Link:visited,a.OT_Widget_Link:hover,a.OT_Widget_Link:active{font-family:Verdana,Arial,sans-serif;text-decoration:none;color:#61594E;font-size:12px;display:block;background:url(file:///C|/Users/Jean%20Francois%20Beeroo/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Low/Content.IE5/9RZ0ZAK3/img/dc_widget_frame.gif) no-repeat 50% bottom;width:150px;padding-bottom:25px;text-align:center;position:relative;bottom:-5px;}a.OT_Widget_Link:hover{text-decoration:underline;}a.OT_Widget_Link span{cursor:pointer;}.OT_Widget_Restaurant{font-weight:bold;display:block;width:135px;margin:0 auto;}.OT_Widget_City{font-weight:normal;display:block;margin:0 auto;width:135px;}

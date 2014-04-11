@@ -1,0 +1,607 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body, #wrapper {
+	height: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+
+body {
+	text-align: center;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+	font-size: 66%;
+	font-weight: normal;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+}
+h1 {
+
+}
+
+
+a {
+	outline: none;
+	cursor: pointer;
+}
+u {
+	font-style: normal;
+}
+
+
+img {
+	border: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#inner {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+
+#header {
+	height: 95px;
+	padding: 0px;
+	margin: 0 auto;
+	width: 800px;
+	clear: both;
+	position: relative;
+}
+
+#header .logo {
+	width: 250px;
+	height: 85px;
+	float: left;
+	text-align: center;
+	padding: 5px;
+}
+
+#header .mainquote {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.15em;
+	color: #840000;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	float: right;
+	width: 500px;
+	text-align: right;
+	padding-right: 5px;
+	font-style: italic;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#header .subquote {
+	font-weight: normal;
+	color: #232323;
+	text-decoration: none;
+	font-size: 1em;
+	margin-top: 3px;
+	height: 50px;
+	float: right;
+	width: 500px;
+	text-align: right;
+	padding-right: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#topnav {
+	width: 800px;
+	height: 27px;
+	margin: 0px auto 7px auto;
+	padding-bottom: 0px;
+	clear: both;
+	border-bottom: solid 1px #840000;
+	position: relative;
+}
+
+#topnav ul {
+	width: 100%;
+	height: 27px;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#topnav li {
+	width: 133px;
+	height: 27px;
+	float: left;
+	text-align: center;
+	font-size: 12.5px;
+	font-weight: bold;
+	line-height: 27px;
+	text-transform: uppercase;
+	padding: 0px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #840000;
+	list-style-type: none;
+}
+
+#topnav li.top_first_last {
+	width: 134px;
+	padding: 0px;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+#topnav a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+}
+
+#topnav a:hover {
+	color: #840000;
+	text-decoration: none;
+	background-image: url(../assets/images/bg_dividers/overline_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+#topnav a:active {
+	color: #666;
+	text-decoration: none;
+	background-image: none;
+}
+
+#subnav {
+	width: 650px;
+	margin: 0px 75px;
+	clear: both;
+	padding: 0px;
+	height: 20px;
+	position: relative;
+}
+
+#subnav ul {
+	width: 100%;
+	list-style-type: none;
+	overflow: hidden;
+	height: 20px;
+}
+
+#subnav li {
+	width: 130px;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	list-style-type: none;
+	height: 20px;
+	line-height: 20px;
+}
+
+#subnav a {
+	display: block;
+	color: #840000;
+	text-decoration: underline;
+}
+
+#subnav a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+#subnav a:active {
+	text-decoration: none;
+	color: #666;
+}
+
+#mainContent {
+	height: 322px;
+	margin: 7px 74px;
+	width: 652px;
+	clear: both;
+	padding: 0px;
+	text-align: center;
+	background-image: url(../assets/images/bg/main_bg_drop_shadow.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	position: relative;
+	z-index: 1;
+}
+
+/* Applies To All Pages */
+#mainContent .content_bg {
+	width: 644px;
+	height: 314px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #4D0000;
+	float: left;
+	position: relative;
+	z-index: 2;
+}
+/* End Of Menu/Dinner/Drinks/Lunch */
+
+/*Applies To Menu/Employment/Events/Press */
+#content_left {
+	width: 218px;
+	height: 294px;
+	float: left;
+	padding: 10px;
+	background-image: url(../assets/images/bg_dividers/menu_bar.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-align: left;
+	background-color: #4D0000;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#inner_content_left_tv {
+	width: 238px;
+	height: 294px;
+	float: left;
+	padding: 0px;
+	background-image: url(../assets/images/bg_dividers/menu_bar.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-align: left;
+	margin: 10px 0px;
+}
+
+#content_left_tv {
+	width: 207px;
+	height: 294px;
+	padding: 0px 15px;
+	text-align: left;
+	background-color: #4D0000;
+	margin: 0px;
+	overflow: auto;
+}
+
+#content_right_inner {
+	width: 402px;
+	height: 284px;
+	padding: 0px;
+	float: right;
+	margin: 15px 0px;
+	background-color: #4D0000;
+	overflow: hidden;
+	position: relative;
+}
+
+#content_right  {
+	width: 372px;
+	height: 284px;
+	padding: 0px 15px;
+	overflow: auto;
+	margin: 0px;
+	background-color: #4D0000;
+	position: relative;
+}
+
+#content_right2  {
+	width: 372px;
+	height: 284px;
+	padding: 0px 15px;
+	overflow: auto;
+	margin: 0px;
+	background-color: #4D0000;
+	text-align: left;
+	position: relative;
+}
+
+#content_right3  {
+	width: 372px;
+	height: 284px;
+	padding: 0px 15px;
+	overflow: auto;
+	margin: 0px;
+	background-color: #4D0000;
+	text-align: left;
+	position: relative;
+}
+/* Applies To All Hide/Show Div Except Press / Events */
+.content_active {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+
+.content_hide {
+	padding: 0px;
+	margin: 0px;
+	display: none;
+}
+
+/* Applies To Home &amp; Menu Slideshow Page */
+.slideshow_div {
+	width: 643px;
+	height: 313px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #FFF;
+	float: left;
+	border-top: solid 1px #999;
+	border-left: solid 1px #999;
+	position: relative;
+	overflow: hidden;
+	z-index: 4;
+}
+/* End Of Menu/Dinner/Drinks/Lunch CSS */
+#countdown_div {
+	position: absolute;
+	width: 643px;
+	height: 125px;
+	top: 94px;
+	border-top: solid 1px #666;
+	border-bottom: solid 1px #666;
+	display: inline;
+	z-index: 3;
+	left: 0px;
+	overflow: hidden;
+}
+.countdown_style {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+}
+
+a.countdown_style  {
+	text-decoration: underline;
+}
+a.countdown_style:hover {
+	text-decoration: none;
+}
+
+#content_inner_GC_News_Jobs {
+	width: 644px;
+	height: 284px;
+	margin: 0;
+	padding: 15px 0px;
+	background-color: #4D0000;
+	float: left;
+	position: relative;
+}
+
+#content_GC_News_Jobs  {
+	width: 614px;
+	height: 284px;
+	margin: 0;
+	padding: 0px 15px;
+	background-color: #4D0000;
+	overflow: auto;
+	text-align: center;
+	position: relative;
+}
+
+#bottomnav {
+	width: 650px;
+	margin: 0px 75px;
+	clear: both;
+	padding: 0px;
+	height: 25px;
+	position: relative;
+}
+
+#bottomnav ul {
+	width: 100%;
+	list-style-type: none;
+	overflow: hidden;
+	height: 25px;
+}
+
+#bottomnav li {
+	width: 130px;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	color: #840000;
+	list-style-type: none;
+	height: 25px;
+	line-height: 25px;
+}
+
+#bottomnav li.Seperator_center {
+	width: 130px;
+	background-image: url(../assets/images/bg_dividers/bottom_nav_seperator.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	list-style-type: none;
+}
+
+#bottomnav li.Seperator_countdown {
+	background-image: url(../assets/images/bg_dividers/bottom_nav_seperator.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	list-style-type: none;
+	width: 26px;
+	display: inline;
+}
+
+#bottomnav li.Seperator_countdown_LF_RT {
+	list-style-type: none;
+	background-image: none;
+	width: 26px;
+	display: inline;
+}
+
+#bottomnav a {
+	display: block;
+	color: #000;
+	text-decoration: underline;
+}
+
+#bottomnav a:hover {
+	color: #840000;
+	text-decoration: none;
+}
+
+#bottomnav a:active {
+	text-decoration: none;
+	color: #666;
+}
+
+#infobar {
+	height: 20px;
+	margin: 5px auto 8px auto;
+	padding: 0px;
+	width: 800px;
+	position: relative;
+}
+
+.infobar_text {
+	color: #000;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 20px;
+	padding: 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+a.infobar_email {
+	color: #000;
+	text-decoration: none;
+}
+a.infobar_email:hover {
+	text-decoration: underline;
+	color: #4D0000;
+}
+
+
+.info_text_span {
+	color: #4D0000;
+	font-weight: normal;
+}
+
+#footer {
+	height: 30px;
+	margin: 0px 0px 0px 75px;
+	padding: 0px;
+	width: 725px;
+	color: #000;
+	position: relative;
+}
+#copyright {
+	position: absolute;
+	left: 212.5px;
+	padding: 0px;
+	margin: 0px;
+	top: 0px;
+	height: 30px;
+	width: 200px;
+}
+#copyright .copyright_style {
+	font-size: 10px;
+	font-weight: normal;
+	color: #000;
+}
+
+
+a.twitter {
+	float: right;
+	padding: 0px;
+	margin: 0 15px 0 0;
+	height: 30px;
+	background-image: url(../assets/images/logos/twitter_logo.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	display: block;
+	width: 25px;
+}
+
+
+
+a.twitter:hover {
+	background-image: url(../assets/images/logos/twitter_logo_hoverstate.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	width: 101px;
+}
+
+a.facebook {
+	float: right;
+	padding: 0px;
+	margin: 0 76px 0 0;
+	height: 30px;
+	background-image: url(../assets/images/logos/facebook_logo.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 25px;
+	display: block;
+}
+
+a.facebook:hover {
+	background-image: url(../assets/images/logos/facebook_logo_hoverstate.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 101px;
+	margin: 0;
+}
+
+a.charcut_tv {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+	background-image: url(../assets/images/logos/charcut_tv_logo.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 25px;
+	display: block;
+}
+
+a.charcut_tv:hover {
+	background-image: url(../assets/images/logos/charcut_tv_logo_hoverstate.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 101px;
+	margin: 0px;
+}
+
+.clear_top_bottom {
+	padding: 0px;
+	margin: 0px;
+	height: 5px;
+}
+
+a.twitter_facebook_mobile {
+	display: none;
+	float: right;
+	color: #000;
+	margin: 0;
+	padding: 10px 0px;
+}
+
+a.charcut_tv_mobile {
+	display: none;
+	float: left;
+	color: #000;
+	margin: 0;
+	padding: 10px 0px;
+}

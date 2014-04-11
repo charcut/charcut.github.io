@@ -1,0 +1,808 @@
+a {
+	cursor: pointer;
+	outline: none;
+}
+/* End Of Hide/Show Div */
+
+/* Applies To Concept Page */
+#concept_img_slideshow  {
+	width: 218px;
+	height: 294px;
+	padding: 10px;
+	float: left;
+	margin: 0px;
+	background-image: url(../assets/images/bg_dividers/menu_bar.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-color: #4D0000;
+	overflow: hidden;
+}
+
+.concept_img  {
+	width: 179px;
+	height: 234px;
+	margin: 0 auto;
+	padding: 2px;
+	background-color: #FFF;
+	clear: both;
+}
+
+.div_clear_concept  {
+	width: 100%;
+	height: 25px;
+	padding: 0px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.concept_text_heading {
+	font-weight: bold;
+}
+
+.concept_text {
+	font-size: 1.25em;
+	color: #FFF;
+	text-align: left;
+	padding: 5px 0px;
+	line-height: 1.45em;
+	font-weight: normal;
+}
+
+/* Applies To Contact CSS */
+.contact_title_heading {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #AD9C81;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 5px 0px;
+	text-transform: uppercase;
+}
+
+.contact_main_title {
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #AD9C81;
+	text-align: center;
+	padding: 3px 10px;
+	text-decoration: none;
+	margin: 0 auto;
+	font-size: 1.25em;
+}
+
+.contact_sub_title {
+	font-size: 1.25em;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0 auto;
+	color: #FFF;
+	padding: 2px 15px;
+	text-align: center;
+	line-height: 1.35em;
+}
+
+.contact_clear {
+	height: 10px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+#mapContact {
+	height: 245px;
+	width: 350px;
+	margin: 10px auto 0  auto;
+	border: solid 2px #FFF;
+}
+
+.map_style {
+	overflow: hidden;
+	color: #FFF;
+	text-align: center;
+
+}
+
+a.contact_email {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: solid 1px #FFF;
+}
+
+a.contact_email:hover {
+	color: #AD9C81;
+	text-decoration: none;
+	border: none;
+}
+/* End Of Contact CSS */
+
+/* Applies To Employment Page */
+.jobs_available_content {
+	padding: 2px 0px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.15em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #AD9C81;
+}
+.employment_title_heading {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #AD9C81;
+	text-decoration: none;
+	margin: 0 auto;
+	text-transform: uppercase;
+	padding: 5px 0px;
+	text-align: center;
+}
+#employment_clear_div {
+	height: 5px;
+}
+
+.employment_content_text {
+	font-size: 1.25em;
+	line-height: 1.35em;
+	color: #FFF;
+	padding: 5px 0 0 0;
+	text-align: left;
+	overflow: hidden;
+}
+
+.employemt_content_text_span {
+	font-weight: bold;
+	text-decoration: none;
+}
+.employment_date_div {
+	font-size: 1em;
+	font-weight: bold;
+	color: #FFF;
+	padding: 5px 10px 10px 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+.employment_main_title {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #FFF;
+	padding: 0px;
+	margin: 0 auto;
+}
+.employment_sub_title {
+	font-size: 1em;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0 auto;
+	color: #FFF;
+	padding: 5px 5px;
+	text-transform: none;
+}
+.employment_small_print {
+	font-size: .95em;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFF;
+}
+.employment_form_box {
+	padding: 0px;
+}
+
+.attach_file {
+	height: 22px;
+	background-color: #FFF;
+	border: 1px solid #4D0000;
+}
+.employment_SubmitResetButton {
+	font-size: 12px;
+	color: #4D0000;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0px 2px;
+	text-decoration: none;
+	border: none;
+	background-color: #AD9C81;
+	text-align: center;
+	cursor: pointer;
+	display: inline;
+}
+.employment_SubmitResetButton:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #FFF;
+}
+.employment_sign_notes {
+	color: #AD9C81;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+.content_space {
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+	padding: 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.apply_online {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #FFF;
+	padding: 5px 0px;
+	margin-top: 35px;
+	text-align: center;
+}
+
+.apply_online a {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: solid 1px #FFF;
+}
+
+.apply_online a:hover{
+	color: #AD9C81;
+	text-decoration: none;
+	border-top: solid 1px #AD9C81;
+	border-bottom: none;
+}
+/* End Of Employment CSS */
+
+/* Applies To Events Page */
+.events_active_div {
+	padding: 0px;
+	margin: 0 auto;
+	height: 294px;
+	width: 218px;
+	display: block;
+	overflow: hidden;
+}
+.events_hide_div {
+	padding: 0px;
+	margin: 0 auto;
+	height: 294px;
+	width: 218px;
+	display: none;
+	overflow: hidden;
+}
+.event_title {
+	clear: both;
+	font-size: 12px;
+	font-weight: bold;
+	color: #AD9C81;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	height: 15px;
+	padding: 7px 0 0 0;
+}
+
+.event_explained {
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2px 0px;
+}
+.events_img_click_info {
+	clear: both;
+	font-size: 9px;
+	font-weight: bold;
+	color: #AD9C81;
+	text-decoration: none;
+	margin: 0 auto;
+	font-style: italic;
+	padding: 0px;
+	text-align: center;
+}
+.events_img_layout_vert {
+	padding: 0px;
+	border: solid 2px #FFF;
+	margin: 0 0 0 34px;
+	display: block;
+	width: 150px;
+	height: 200px;
+}
+.events_img_layout_hort {
+	width: 200px;
+	height: 133px;
+	padding: 0;
+	margin: 33px auto 0px 7px;
+	border: solid 2px #FFF;
+}
+
+
+.events_title_heading {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #AD9C81;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.events_main_title  {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #AD9C81;
+	text-align: left;
+	padding: 10px 0px;
+	margin: 0 auto;
+}
+.events_main_title a {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: solid 1px #FFF;
+}
+.events_main_title a:hover {
+	text-decoration: none;
+	color: #AD9C81;
+	border: none;
+}
+.events_sub_title {
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0 auto;
+	color: #FFF;
+	padding: 2px 10px;
+}
+.events_clear {
+	height: 15px;
+	padding: 0px;
+	margin: 0 auto;
+}
+/* End Of Loyalty Program CSS */
+
+/* Applies To Newsletter Page */
+#newsletter_inner_content_right {
+	width: 644px;
+	height: 284px;
+	text-align: left;
+	margin: 0;
+	padding: 15px 0px;
+	background-color: #4D0000;
+	float: left;
+	position: relative;
+}
+#newsletter_content_right  {
+	width: 614px;
+	height: 284px;
+	text-align: left;
+	margin: 0;
+	padding: 0px 15px;
+	background-color: #4D0000;
+	overflow: auto;
+	position: relative;
+}
+.newsletter_main_header {
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #AD9C81;
+}
+
+.TextFontFace {
+	color: #FFF;
+	font-size: 1.15em;
+	font-weight: bold;
+}
+
+.FooterNoteFontFace {
+	font-size: 1em;
+	color: #FFF;
+}
+
+.FormBox {
+	color: #000;
+	background-color: #FFF;
+	border-color: #FFF;
+	font-weight: normal;
+	padding-left: 0px;
+}
+
+.NoteFontFace {
+	color: #FFF;
+	font-size: 1em;
+	line-height: 30px;
+	padding: 0px;
+	font-style: italic;
+}
+
+.JoinNewsleterUnderline {
+	font-size: 11px;
+	font-weight: normal;
+	color: #AD9C81;
+	text-decoration: underline;
+}
+
+.NoteSignFontFace {
+	color: #AD9C81;
+	font-size: 10px;
+}
+.TextFieldSignFontFace {
+	font-size: 1.15em;
+	color: #AD9C81;
+}
+
+.SubmitResetButton {
+	font-size: 12px;
+	color: #4D0000;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0px;
+	text-decoration: none;
+	border: none;
+	background-color: #AD9C81;
+	text-align: center;
+	display: inline;
+	cursor: pointer;
+}
+
+.SubmitResetButton:hover {
+	color: #000;
+	border: none;
+	text-decoration: none;
+	margin: 0px;
+	background-color: #FFF;
+}
+
+.errormessage {
+	font-size: 10px;
+	color: #CE0000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#NewsletterContentHide {
+	position:absolute;
+	width:auto;
+	height:auto;
+	z-index:2;
+	display: none;
+}
+/* End Of Newsletter CSS */
+
+/* Applies To Application Failed/Received/Newsletter Processed */
+#content_text {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #AD9C81;
+	padding: 0px;
+	background-color: #4D0000;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	margin: 0px;
+}
+
+.note_text {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.signature_note {
+	font-size: 0.85em;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+	text-align: right;
+	margin: 0px;
+	padding-right: 95px;
+	float: right;
+	display: block;
+}
+/* End Of Application Failed/Received/Newsletter Processed CSS */
+
+/* Applies To Press Page */
+#content_left .press_img_holder {
+	padding: 10px 0px;
+	height: auto;
+	width: 183px;
+	margin: 0 auto;
+	text-decoration: none;
+	display: none;
+	overflow: hidden;
+	position: relative;
+}
+.press_img_holder_active {
+	padding: 10px 0px;
+	height: auto;
+	width: 183px;
+	margin: 0 auto;
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+}
+.press_thumb_title {
+	clear: both;
+	font-size: 12px;
+	font-weight: bold;
+	color: #AD9C81;
+	text-decoration: none;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.press_title_heading {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #AD9C81;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.press_main_title  {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #AD9C81;
+	text-align: left;
+	padding: 8px 0px;
+	margin: 0 auto;
+}
+.press_main_title a {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: solid 1px #FFF;
+}
+.press_main_title a:hover {
+	text-decoration: none;
+	color: #AD9C81;
+	border: none;
+}
+.press_clear {
+	height: 15px;
+	padding: 0px;
+	margin: 0 auto;
+}
+/* End Of Store CSS */
+
+/* Applies To Bios TEAM John/Carrie/Connie/JF Page */
+.bio_menu_content  {
+	padding: 5px 0px;
+	margin: 0 auto;
+	text-align: left;
+
+}
+#bio_links  {
+	width: 218px;
+	height: 294px;
+	padding: 10px;
+	float: left;
+	margin: 0px;
+	background-image: url(../assets/images/bg_dividers/menu_bar.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-color: #4D0000;
+}
+
+.div_bio_title {
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+	padding: 10px 0px;
+	font-size: 1.15em;
+	color: #AD9C81;
+	height: 30px;
+	font-weight: bold;
+	line-height: 1.35em;
+}
+
+.div_bio_title a {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: solid 1px #FFF;
+}
+
+.div_bio_title a:hover {
+	color: #AD9C81;
+	text-decoration: none;
+	border: none;
+}
+
+.div_bio_title a:active {
+	color: #CCC;
+}
+
+.div_bio_clear {
+	height: 18px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.bio_img {
+	margin-right: 15px;
+	border: solid 1px #FFF;
+}
+
+.bio_text_heading {
+	font-size: 1.15em;
+	color: #AD9C81;
+	font-weight: bold;
+}
+
+.bio_text {
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	line-height: 1.35em;
+}
+/* End Of TEAM BIOS John/Carrie/Connie/JF CSS */
+
+/* Applies To Menu/Dinner/Drinks/Lunch Page */
+#menu_img_slideshow  {
+	width: 218px;
+	height: 294px;
+	padding: 10px;
+	float: left;
+	margin: 0px;
+	background-image: url(../assets/images/bg_dividers/menu_bar.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-color: #4D0000;
+	z-index: 5;
+}
+
+.menu_img  {
+	width: 179px;
+	height: 234px;
+	margin: 20px auto 10px auto;
+	padding: 2px;
+	background-color: #FFF;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.div_clear_menu  {
+	width: 100%;
+	height: 5px;
+	padding: 0px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.menu_text_heading {
+	font-size: 1.15em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #AD9C81;
+	padding: 7px 0px;
+	display: block;
+	text-align: center;
+}
+
+.menu_text {
+	font-size: 1.25em;
+	color: #FFF;
+	font-weight: bold;
+	padding: 0px;
+}
+
+.menu_text_small {
+	font-size: 1.25em;
+	color: #FFF;
+	font-weight: normal;
+}
+.print {
+	margin: 0 auto;
+	padding: 7px 0px;
+	text-align: center;
+}
+.print a {
+	color: #AD9C81;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.05em;
+	padding: 0px;
+	margin: 0px;
+}
+.print a:hover {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: solid 1px #FFF;
+}
+
+
+.menu_clear_nav {
+	height: 20px;
+}
+
+
+#gift_content {
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	overflow: auto;
+	height: auto;
+}
+.gift_style_header {
+	color: #AD9C81;
+	font-size: 1.18em;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px 0px;
+	margin: 0 auto;
+}
+
+.gift_style {
+	font-size: 1
+.em;
+	font-weight: normal;
+	color: #FFF;
+	font-size: 1.25em;
+}
+
+a.gift_Print_Form {
+	background-color: #AD9C81;
+	padding: 4px 8px;
+	color: #4D0000;
+	font-size: 12px;
+	font-style: normal;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 auto;
+}
+a.gift_Print_Form:hover {
+	background-color: #FFF;
+	color: #000;
+}
+.gift_note_title {
+	font-size: 1.05em;
+	color: #AD9C81;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 1.35em;
+}
+
+.gift_note {
+	font-size: 1.05em;
+	font-style: italic;
+	color: #FFF;
+	line-height: 1.35em;
+}
+a.adobe_link {
+	color: #AD9C81;
+	font-size: 12px;
+	font-style: italic;
+	list-style-type: none;
+}
+a.adobe_link:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+.reserve {
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	margin: 0 auto;
+	padding: 8px 8px;
+	line-height: 1.5em;
+}
+.special_event_header {
+	font-size: 13.5px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #840000;
+	font-style: italic;
+}
+a.special_event_style {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+a.special_event_style:hover {
+	color: #840000;
+	text-decoration: underline;
+}
