@@ -1,0 +1,23 @@
+## Redirects implemented to point here
+/index.html -> / 301
+/emenu -> http://emenu.charcut.com 301
+/emenu/index.html -> http://emenu.charcut.com 301
+/emenu/[name] -> http://emenu.charcut.com/[name] 301
+/emenu_pdf/[name] -> http://emenu.charcut.com/emenu_pdf/[name] 301
+
+## Not used redirects below
+/emenu/breakfast.html -> http://emenu.charcut.com/breakfast.html 301
+/emenu/breaks.html -> http://emenu.charcut.com/breaks.html 301
+/emenu/lunch_cold.html -> http://emenu.charcut.com/lunch_cold.html 301
+/emenu/reception_coldbites.html -> http://emenu.charcut.com/reception_coldbites.html 301
+/emenu/dinner_communal.html -> http://emenu.charcut.com/dinner_communal.html 301
+/emenu/bar.html -> http://emenu.charcut.com/bar.html 301
+/emenu/print.html -> http://emenu.charcut.com/print.html 301
+/emenu/breakfast_fastplate.html -> http://emenu.charcut.com/breakfast_fastplate.html 301
+/emenu/lunch_hot.html -> http://emenu.charcut.com/lunch_hot.html 301
+/emenu/lunch_plated.html -> http://emenu.charcut.com/lunch_plated.html 301
+/emenu/reception_hotbites.html -> http://emenu.charcut.com/reception_hotbites.html 301
+/emenu/reception_communal.html -> http://emenu.charcut.com/reception_communal.html 301
+/emenu/reception_carving.html -> http://emenu.charcut.com/reception_carving.html 301
+/emenu/reception_sweetendings.html -> http://emenu.charcut.com/reception_sweetendings.html 301
+/emenu/dinner_plated.html -> http://emenu.charcut.com/dinner_plated.html 301
