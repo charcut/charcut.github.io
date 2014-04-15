@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-
-sitemap: http://emenu.charcut.com/sitemap.xml
